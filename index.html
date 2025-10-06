@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layihə Təqdimatı</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2d9d5b5a0.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #007bff, #00cfff);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        header::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.55);
+        }
+        header h1, header p {
+            position: relative;
+            z-index: 1;
+        }
+        header h1 {
+            font-size: 42px;
+            margin: 0;
+        }
+        header p {
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        section h2 {
+            color: #007bff;
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        section h2::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 4px;
+            background: #007bff;
+            margin: 10px auto 0;
+            border-radius: 2px;
+        }
+        section p {
+            text-align: center;
+            line-height: 1.7;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .feature {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 280px;
+            transition: all 0.3s ease;
+        }
+        .feature:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .feature i {
+            font-size: 40px;
+            color: #00cfff;
+            margin-bottom: 15px;
+        }
+        .feature h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .image-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .image-section img {
+            max-width: 90%;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SmartEnergy Layihəsi</h1>
+    <p>Yaşıl enerjiyə əsaslanan innovativ həllər</p>
+</header>
+
+<section>
+    <h2>Layihənin Məqsədi</h2>
+    <p>SmartEnergy layihəsinin əsas məqsədi ev şəraitində enerji sərfiyyatını minimuma endirmək və təbii enerji mənbələrindən səmərəli istifadəni təşviq etməkdir.</p>
+
+    <div class="image-section">
+        <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1200&q=80" alt="Green Energy">
+    </div>
+</section>
+
+<section>
+    <h2>Əsas Xüsusiyyətlər</h2>
+    <div class="features">
+        <div class="feature">
+            <i class="fas fa-solar-panel"></i>
+            <h3>Günəş Enerjisi</h3>
+            <p>Ev şəraitində plastik butulkalardan istifadə edərək günəş işığı ilə suyun isidilməsi.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-wind"></i>
+            <h3>Külək Enerjisi</h3>
+            <p>Sadə ventilyator və dinamo vasitəsilə elektrik enerjisi istehsalı.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-water"></i>
+            <h3>Su Axını</h3>
+            <p>Su kranından çıxan axının gücü ilə kiçik generatorun fırladılması və enerji hasilatı.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Əlaqə</h2>
+    <p>Email: smartenergy@ornek.com</p>
+    <p>Telefon: +994 50 123 45 67</p>
+</section>
+
+<footer>
+    © 2025 SmartEnergy Team. Bütün hüquqlar qorunur.
+</footer>
+
+</body>
+</html>
